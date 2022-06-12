@@ -16,7 +16,15 @@ body {
 }
 
 .fullscreen-background {
-    background: url("../images/background.jpg") no-repeat center center fixed; 
+    background: url("../images/background1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.orders-background {
+    background: url("../images/bread-background.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -24,7 +32,7 @@ body {
 }
 
 div.glass-pane {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
     min-height: 42vh;  /* always cover at least the sky */
 }
