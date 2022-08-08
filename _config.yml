@@ -76,11 +76,12 @@ links:
       show: true
       href: orders.html
       icon: fa fa-birthday-cake
-#  - linkedin:
-#      name: LinkedIn
-#      show: false
-#      href: https://linkedin.com/in/YOUR_LINKEDIN_USERNAME/
-#      icon: fab fa-linkedin
+  - menu:
+      name: menu
+      show: true
+      href: menu.html
+      icon: fa fa-cutlery
+
 #  - googleplus:
 #      name: Google+
 #      show: false
